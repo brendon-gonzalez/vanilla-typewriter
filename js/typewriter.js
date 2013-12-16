@@ -49,7 +49,7 @@ var TypeWriter = {
       this.text = text;
       this.setTimer(function() {
         self.type();
-      });  
+      }, self.speed);  
     } else {
       console.warn('You need to use some text bro');
     }
